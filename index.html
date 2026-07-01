@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mateus Padovan Siviero — Advocacia Criminal</title>
+<meta name="description" content="Advogado criminalista em Curitiba e Arapongas (PR). Defesa em crimes financeiros, habeas corpus, júri e execução penal. OAB/PR 121.263. Atendimento 24h para casos urgentes.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mateus Padovan Siviero — Advocacia Criminal">
+<meta property="og:description" content="Defesa penal construída com técnica, não com pânico. Atuação em crimes financeiros, defesa criminal e execução penal em todo o Paraná.">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mateus Padovan Siviero — Advocacia Criminal">
+<meta name="twitter:description" content="Defesa penal construída com técnica, não com pânico. OAB/PR 121.263 — Curitiba &amp; Arapongas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=IBM+Plex+Mono:wght@400;500&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy-950:#0A1220;
+    --navy-900:#0F1B2E;
+    --navy-800:#16263F;
+    --navy-700:#1F3350;
+    --navy-600:#2C4568;
+    --gold-500:#C79A4B;
+    --gold-400:#D6B36A;
+    --gold-300:#E4C784;
+    --paper:#F6F2E9;
+    --paper-2:#EFE9DA;
+    --paper-line:#D9CFB8;
+    --ink:#181A1E;
+    --ink-soft:#4A4E57;
+    --max:1180px;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Public Sans', sans-serif;
+    font-size:16px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    margin:0;
+    letter-spacing:-0.01em;
+  }
+  a{color:inherit; text-decoration:none;}
+  img{max-width:100%; display:block;}
+  .wrap{max-width:var(--max); margin:0 auto; padding:0 28px;}
+  .mono{font-family:'IBM Plex Mono', monospace;}
+  ::selection{background:var(--gold-300); color:var(--navy-950);}
+
+  @media (prefers-reduced-motion: no-preference){
+    .reveal{opacity:0; transform:translateY(18px); transition:opacity .7s ease, transform .7s ease;}
+    .reveal.in{opacity:1; transform:translateY(0);}
+  }
+
+  /* ---------- HEADER ---------- */
+  header{
+    position:sticky; top:0; z-index:50;
+    background:rgba(10,18,32,0.92);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid rgba(199,154,75,0.25);
+  }
+  .nav{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:18px 28px; max-width:var(--max); margin:0 auto;
+  }
+  .brand{display:flex; align-items:baseline; gap:10px; color:var(--paper);}
+  .brand .name{font-family:'Fraunces', serif; font-size:1.05rem; font-weight:600; letter-spacing:0.01em;}
+  .brand .tag{font-family:'IBM Plex Mono', monospace; font-size:0.62rem; color:var(--gold-400); letter-spacing:0.14em; text-transform:uppercase;}
+  nav.links{display:flex; gap:34px; align-items:center;}
+  nav.links a{
+    color:rgba(246,242,233,0.78);
+    font-size:0.85rem;
+    letter-spacing:0.02em;
+    transition:color .2s ease;
+    position:relative;
+  }
+  nav.links a:hover{color:var(--gold-300);}
+  .cta-btn{
+    background:var(--gold-500); color:var(--navy-950);
+    padding:10px 20px; border-radius:2px;
+    font-size:0.82rem; font-weight:600; letter-spacing:0.02em;
+    transition:background .2s ease, transform .2s ease;
+    white-space:nowrap;
+  }
+  .cta-btn:hover{background:var(--gold-300); transform:translateY(-1px);}
+  .menu-toggle{display:none; background:none; border:none; color:var(--paper); font-size:1.5rem; cursor:pointer;}
+
+  /* ---------- HERO ---------- */
+  .hero{
+    background:
+      linear-gradient(180deg, var(--navy-950) 0%, var(--navy-900) 60%, var(--navy-800) 100%);
+    color:var(--paper);
+    position:relative;
+    overflow:hidden;
+    padding:120px 0 100px;
+  }
+  .hero::before{
+    content:"";
+    position:absolute; inset:0;
+    background-image:
+      linear-gradient(rgba(199,154,75,0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(199,154,75,0.06) 1px, transparent 1px);
+    background-size:64px 64px;
+    mask-image:radial-gradient(ellipse 80% 60% at 70% 30%, black 10%, transparent 70%);
+    pointer-events:none;
+  }
+  .hero-cols{
+    position:relative;
+    display:grid; grid-template-columns:1.2fr 0.8fr; gap:60px; align-items:center;
+  }
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace; font-size:0.72rem;
+    color:var(--gold-400); letter-spacing:0.16em; text-transform:uppercase;
+    display:flex; align-items:center; gap:12px; margin-bottom:22px;
+  }
+  .eyebrow::before{content:""; width:28px; height:1px; background:var(--gold-500);}
+  .hero h1{
+    font-size:clamp(2.3rem, 4.6vw, 3.6rem);
+    line-height:1.08; color:var(--paper); max-width:12ch;
+  }
+  .hero h1 em{color:var(--gold-300); font-style:normal;}
+  .hero p.lead{
+    margin-top:26px; font-size:1.08rem; color:rgba(246,242,233,0.72);
+    max-width:46ch; line-height:1.7;
+  }
+  .hero-actions{margin-top:38px; display:flex; gap:16px; flex-wrap:wrap;}
+  .btn-outline{
+    border:1px solid rgba(246,242,233,0.35); color:var(--paper);
+    padding:12px 22px; border-radius:2px; font-size:0.88rem; letter-spacing:0.02em;
+    transition:border-color .2s ease, background .2s ease;
+  }
+  .btn-outline:hover{border-color:var(--gold-400); background:rgba(199,154,75,0.08);}
+  .btn-primary{
+    background:var(--gold-500); color:var(--navy-950); font-weight:600;
+    padding:12px 24px; border-radius:2px; font-size:0.88rem; letter-spacing:0.02em;
+    transition:background .2s ease, transform .2s ease;
+  }
+  .btn-primary:hover{background:var(--gold-300); transform:translateY(-1px);}
+
+  .seal{
+    position:relative; justify-self:center;
+    width:220px; height:220px; border-radius:50%;
+    border:1px solid rgba(199,154,75,0.5);
+    display:flex; align-items:center; justify-content:center;
+    background:radial-gradient(circle at 40% 35%, rgba(199,154,75,0.12), transparent 70%);
+  }
+  .seal::before{
+    content:""; position:absolute; inset:14px; border-radius:50%;
+    border:1px dashed rgba(199,154,75,0.35);
+  }
+  .seal .initials{
+    font-family:'Fraunces', serif; font-size:2.6rem; color:var(--gold-300); font-weight:600;
+  }
+  .seal .oab{
+    position:absolute; bottom:26px; font-family:'IBM Plex Mono', monospace;
+    font-size:0.62rem; letter-spacing:0.1em; color:rgba(246,242,233,0.6);
+  }
+
+  .hero-stats{
+    position:relative; display:flex; gap:0; margin-top:70px;
+    border-top:1px solid rgba(246,242,233,0.14); padding-top:28px;
+  }
+  .hero-stats div{flex:1; padding-right:24px;}
+  .hero-stats .n{font-family:'Fraunces', serif; font-size:1.6rem; color:var(--gold-300);}
+  .hero-stats .l{font-size:0.8rem; color:rgba(246,242,233,0.6); margin-top:4px;}
+
+  /* ---------- SECTION SHARED ---------- */
+  section{padding:96px 0;}
+  .protocolo{
+    font-family:'IBM Plex Mono', monospace; font-size:0.7rem; color:var(--navy-600);
+    letter-spacing:0.1em; text-transform:uppercase; margin-bottom:14px;
+    display:flex; align-items:center; gap:12px;
+  }
+  .protocolo::before{content:""; width:24px; height:1px; background:var(--gold-500);}
+  .section-head{max-width:640px; margin-bottom:56px;}
+  .section-head h2{font-size:clamp(1.6rem, 3vw, 2.2rem); color:var(--navy-900);}
+  .section-head p{margin-top:16px; color:var(--ink-soft); font-size:1.02rem; max-width:56ch;}
+
+  /* ---------- AREAS ---------- */
+  .areas{background:var(--paper);}
+  .grid-areas{
+    display:grid; grid-template-columns:repeat(3, 1fr); gap:1px;
+    background:var(--paper-line); border:1px solid var(--paper-line);
+  }
+  .area-card{
+    background:var(--paper); padding:32px 28px; min-height:190px;
+    display:flex; flex-direction:column; justify-content:space-between;
+    transition:background .25s ease;
+  }
+  .area-card:hover{background:var(--paper-2);}
+  .area-card .num{font-family:'IBM Plex Mono', monospace; font-size:0.72rem; color:var(--gold-500);}
+  .area-card h3{font-size:1.1rem; margin-top:22px; color:var(--navy-900); font-weight:600;}
+  .area-card p{font-size:0.88rem; color:var(--ink-soft); margin-top:10px;}
+
+  /* ---------- SOBRE ---------- */
+  .sobre{background:var(--navy-900); color:var(--paper);}
+  .sobre .protocolo{color:var(--gold-400);}
+  .sobre .protocolo::before{background:var(--gold-500);}
+  .sobre-grid{display:grid; grid-template-columns:0.9fr 1.1fr; gap:64px; align-items:start;}
+  .sobre h2{color:var(--paper);}
+  .sobre p{color:rgba(246,242,233,0.75); font-size:1.02rem; margin-top:18px; max-width:54ch;}
+  .creds{margin-top:34px; border-top:1px solid rgba(246,242,233,0.15); padding-top:24px;}
+  .creds .row{display:flex; justify-content:space-between; padding:10px 0; border-bottom:1px solid rgba(246,242,233,0.08); font-size:0.9rem;}
+  .creds .row span:first-child{color:rgba(246,242,233,0.55); font-family:'IBM Plex Mono', monospace; font-size:0.76rem; letter-spacing:0.04em;}
+  .creds .row span:last-child{color:var(--paper);}
+
+  .principios{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:22px;}
+  .principios li{
+    padding-left:26px; position:relative; font-size:0.98rem; color:rgba(246,242,233,0.85);
+  }
+  .principios li::before{
+    content:"§"; position:absolute; left:0; top:0; color:var(--gold-400);
+    font-family:'Fraunces', serif; font-size:1.1rem;
+  }
+  .principios li b{color:var(--paper); font-weight:600;}
+
+  /* ---------- ATENDIMENTO ---------- */
+  .atendimento{background:var(--paper);}
+  .steps{display:grid; grid-template-columns:repeat(4, 1fr); gap:0; position:relative;}
+  .steps::before{
+    content:""; position:absolute; top:22px; left:0; right:0; height:1px;
+    background:var(--paper-line);
+  }
+  .step{padding-right:24px; position:relative;}
+  .step .dot{
+    width:44px; height:44px; border-radius:50%; background:var(--paper);
+    border:1px solid var(--gold-500); color:var(--navy-900);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'IBM Plex Mono', monospace; font-size:0.85rem; position:relative; z-index:2;
+    margin-bottom:22px;
+  }
+  .step h3{font-size:1rem; color:var(--navy-900); font-weight:600;}
+  .step p{font-size:0.86rem; color:var(--ink-soft); margin-top:8px;}
+
+  /* ---------- CONTATO ---------- */
+  .contato{background:var(--navy-950); color:var(--paper);}
+  .contato .protocolo{color:var(--gold-400);}
+  .contato .protocolo::before{background:var(--gold-500);}
+  .contato-grid{display:grid; grid-template-columns:1fr 1fr; gap:64px;}
+  .contato h2{color:var(--paper);}
+  .contato p.lead{color:rgba(246,242,233,0.7); margin-top:16px; max-width:48ch;}
+  .contact-list{margin-top:36px; display:flex; flex-direction:column; gap:22px;}
+  .contact-list .item{display:flex; gap:16px; align-items:flex-start;}
+  .contact-list .k{
+    font-family:'IBM Plex Mono', monospace; font-size:0.7rem; color:var(--gold-400);
+    letter-spacing:0.08em; text-transform:uppercase; width:110px; flex-shrink:0; padding-top:3px;
+  }
+  .contact-list .v{font-size:0.98rem; color:var(--paper); line-height:1.5;}
+  .contact-list .v small{display:block; color:rgba(246,242,233,0.55); font-size:0.8rem; margin-top:4px;}
+
+  .card-form{
+    background:var(--navy-800); border:1px solid rgba(199,154,75,0.2);
+    padding:36px; border-radius:2px;
+  }
+  .card-form .mono-label{font-family:'IBM Plex Mono', monospace; font-size:0.68rem; letter-spacing:0.1em; color:var(--gold-400); text-transform:uppercase; margin-bottom:18px;}
+  .card-form h3{color:var(--paper); font-size:1.2rem; margin-bottom:12px;}
+  .card-form p{color:rgba(246,242,233,0.65); font-size:0.9rem; margin-bottom:24px;}
+
+  /* ---------- FOOTER ---------- */
+  footer{background:var(--navy-950); border-top:1px solid rgba(199,154,75,0.18); padding:32px 0;}
+  .foot-row{display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;}
+  .foot-row p{color:rgba(246,242,233,0.45); font-size:0.78rem; margin:0;}
+  .foot-row .mono{color:rgba(199,154,75,0.7); font-size:0.72rem;}
+
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width: 900px){
+    nav.links{display:none;}
+    .menu-toggle{display:block;}
+    .hero-cols{grid-template-columns:1fr;}
+    .seal{margin-top:20px; justify-self:start;}
+    .hero-stats{flex-wrap:wrap; gap:22px;}
+    .hero-stats div{flex:1 1 40%;}
+    .grid-areas{grid-template-columns:1fr;}
+    .sobre-grid{grid-template-columns:1fr; gap:40px;}
+    .steps{grid-template-columns:1fr 1fr; row-gap:36px;}
+    .steps::before{display:none;}
+    .contato-grid{grid-template-columns:1fr; gap:40px;}
+  }
+  @media (max-width: 520px){
+    .steps{grid-template-columns:1fr;}
+    .hero{padding:96px 0 70px;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="brand">
+      <span class="name">Mateus Padovan Siviero</span>
+      <span class="tag">Advocacia Criminal</span>
+    </div>
+    <nav class="links">
+      <a href="#atuacao">Atuação</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#atendimento">Atendimento</a>
+      <a href="#contato">Contato</a>
+      <a href="#contato" class="cta-btn">Falar agora</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-cols">
+    <div class="reveal in">
+      <div class="eyebrow">OAB/PR 121.263 · Arapongas &amp; Curitiba</div>
+      <h1>Defesa penal construída com <em>técnica</em>, não com pânico.</h1>
+      <p class="lead">Atuação estratégica em crimes financeiros, defesa criminal e execução penal — do primeiro atendimento ao recurso final, com precisão técnica e acompanhamento próximo em cada fase do processo.</p>
+      <div class="hero-actions">
+        <a href="https://wa.me/5543999056098?text=Ol%C3%A1%2C%20preciso%20de%20defesa%20criminal." class="btn-primary" target="_blank" rel="noopener">Falar agora no WhatsApp</a>
+        <a href="#atuacao" class="btn-outline">Ver áreas de atuação</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="n">PR</div>
+          <div class="l">Atuação em todo o<br>estado do Paraná</div>
+        </div>
+        <div>
+          <div class="n">24h</div>
+          <div class="l">Resposta a casos<br>urgentes e flagrantes</div>
+        </div>
+        <div>
+          <div class="n">1ª–2ª</div>
+          <div class="l">Instância e tribunais<br>superiores (STJ/STF)</div>
+        </div>
+      </div>
+    </div>
+    <div class="seal reveal in">
+      <span class="initials">MPS</span>
+      <span class="oab mono">OAB/PR 121.263</span>
+    </div>
+  </div>
+</section>
+
+<section class="areas" id="atuacao">
+  <div class="wrap">
+    <div class="protocolo">Nº 001/2026 — Áreas de Atuação</div>
+    <div class="section-head">
+      <h2>Onde a defesa técnica faz diferença</h2>
+      <p>Cada área exige leitura própria da lei e da jurisprudência. A estratégia é montada conforme a fase do processo e a urgência do caso.</p>
+    </div>
+    <div class="grid-areas">
+      <div class="area-card reveal">
+        <span class="num mono">Art. 1º</span>
+        <div>
+          <h3>Crimes Financeiros &amp; Colarinho Branco</h3>
+          <p>Lei 8.137/90, 9.613/98 e 7.492/86 — crimes tributários, lavagem de capitais e contra o sistema financeiro.</p>
+        </div>
+      </div>
+      <div class="area-card reveal">
+        <span class="num mono">Art. 2º</span>
+        <div>
+          <h3>Defesa Criminal &amp; Júri</h3>
+          <p>Resposta à acusação, instrução criminal e atuação em plenário do Tribunal do Júri.</p>
+        </div>
+      </div>
+      <div class="area-card reveal">
+        <span class="num mono">Art. 3º</span>
+        <div>
+          <h3>Habeas Corpus &amp; Cautelares</h3>
+          <p>Revogação de prisão preventiva, monitoramento eletrônico e demais medidas cautelares.</p>
+        </div>
+      </div>
+      <div class="area-card reveal">
+        <span class="num mono">Art. 4º</span>
+        <div>
+          <h3>Execução Penal</h3>
+          <p>Progressão de regime, remição de pena e benefícios executórios.</p>
+        </div>
+      </div>
+      <div class="area-card reveal">
+        <span class="num mono">Art. 5º</span>
+        <div>
+          <h3>Recursos</h3>
+          <p>Apelação, Recurso Especial e Extraordinário perante TJPR, STJ e STF.</p>
+        </div>
+      </div>
+      <div class="area-card reveal">
+        <span class="num mono">Art. 6º</span>
+        <div>
+          <h3>Busca, Apreensão &amp; Restituição</h3>
+          <p>Impugnação de bloqueios patrimoniais e pedidos de restituição de bens apreendidos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sobre" id="sobre">
+  <div class="wrap sobre-grid">
+    <div class="reveal">
+      <div class="protocolo">Nº 002/2026 — Sobre</div>
+      <h2>Mateus Padovan Siviero</h2>
+      <p>Advogado criminalista com atuação em Curitiba e Arapongas, dedicado à defesa em crimes financeiros e ao direito penal em geral — da fase de inquérito à execução da pena, incluindo apelações e recursos aos tribunais superiores.</p>
+      <ul class="principios">
+        <li><b>Precisão técnica</b> — toda tese defensiva é lastreada em jurisprudência verificada, sem atalhos.</li>
+        <li><b>Urgência levada a sério</b> — prisões e medidas cautelares recebem resposta imediata.</li>
+        <li><b>Clareza com o cliente</b> — cada etapa do processo é explicada em linguagem acessível.</li>
+      </ul>
+    </div>
+    <div class="reveal">
+      <div class="creds">
+        <div class="row"><span>Inscrição</span><span>OAB/PR 121.263</span></div>
+        <div class="row"><span>Atuação</span><span>Curitiba &amp; Arapongas — PR</span></div>
+        <div class="row"><span>Instâncias</span><span>1ª e 2ª instância, STJ e STF</span></div>
+        <div class="row"><span>Áreas</span><span>Direito Penal &amp; Crimes Financeiros</span></div>
+        <div class="row"><span>Escritório</span><span>Mateus Padovan Siviero Sociedade Individual de Advocacia</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="atendimento" id="atendimento">
+  <div class="wrap">
+    <div class="protocolo">Nº 003/2026 — Como funciona o atendimento</div>
+    <div class="section-head">
+      <h2>Do primeiro contato à estratégia de defesa</h2>
+      <p>Um fluxo direto, pensado para dar resposta rápida em casos urgentes sem abrir mão da análise técnica.</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal">
+        <div class="dot">01</div>
+        <h3>Contato inicial</h3>
+        <p>Você descreve a situação pelo WhatsApp ou telefone — inclusive fora do horário comercial em casos urgentes.</p>
+      </div>
+      <div class="step reveal">
+        <div class="dot">02</div>
+        <h3>Análise do caso</h3>
+        <p>Levantamento dos autos, prazos processuais e riscos envolvidos.</p>
+      </div>
+      <div class="step reveal">
+        <div class="dot">03</div>
+        <h3>Estratégia de defesa</h3>
+        <p>Definição da tese, das peças cabíveis e do plano de atuação.</p>
+      </div>
+      <div class="step reveal">
+        <div class="dot">04</div>
+        <h3>Atuação e acompanhamento</h3>
+        <p>Protocolo das peças e acompanhamento contínuo até a decisão final.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contato" id="contato">
+  <div class="wrap contato-grid">
+    <div class="reveal">
+      <div class="protocolo">Nº 004/2026 — Contato</div>
+      <h2>Precisa de defesa agora?</h2>
+      <p class="lead">Casos urgentes — prisão em flagrante, audiência de custódia ou medida cautelar — têm prioridade de atendimento.</p>
+      <div class="contact-list">
+        <div class="item">
+          <span class="k">WhatsApp</span>
+          <span class="v"><a href="https://wa.me/5543999056098?text=Ol%C3%A1%2C%20preciso%20de%20defesa%20criminal." target="_blank" rel="noopener">(43) 99905-6098</a><small>Atendimento prioritário para casos urgentes</small></span>
+        </div>
+        <div class="item">
+          <span class="k">E-mail</span>
+          <span class="v">contato@mateuspadovan.adv.br<small>Substituir pelo e-mail oficial do escritório</small></span>
+        </div>
+        <div class="item">
+          <span class="k">Endereço</span>
+          <span class="v">Rua Pavão, 1.653 — Jardim Imperial<small>Arapongas / PR</small></span>
+        </div>
+        <div class="item">
+          <span class="k">OAB</span>
+          <span class="v">OAB/PR 121.263</span>
+        </div>
+      </div>
+    </div>
+    <div class="reveal">
+      <div class="card-form">
+        <div class="mono-label">Solicitar contato</div>
+        <h3>Conte brevemente o seu caso</h3>
+        <p>Retornamos o contato o quanto antes — casos com prisão ou audiência marcada são priorizados.</p>
+        <a href="https://wa.me/5543999056098?text=Ol%C3%A1%2C%20preciso%20de%20defesa%20criminal." class="btn-primary" style="display:inline-block;" target="_blank" rel="noopener">Iniciar conversa no WhatsApp →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-row">
+    <p>© 2026 Mateus Padovan Siviero Sociedade Individual de Advocacia. Todos os direitos reservados.</p>
+    <p class="mono">OAB/PR 121.263 · Arapongas &amp; Curitiba, PR</p>
+  </div>
+</footer>
+
+<script>
+  // Mobile menu toggle
+  const toggle = document.getElementById('menuToggle');
+  const links = document.querySelector('nav.links');
+  toggle.addEventListener('click', () => {
+    const isOpen = links.style.display === 'flex';
+    links.style.display = isOpen ? 'none' : 'flex';
+    links.style.flexDirection = 'column';
+    links.style.position = 'absolute';
+    links.style.top = '64px';
+    links.style.right = '0';
+    links.style.left = '0';
+    links.style.background = '#0A1220';
+    links.style.padding = '24px 28px';
+    links.style.gap = '18px';
+  });
+
+  // Scroll reveal
+  if (window.matchMedia('(prefers-reduced-motion: no-preference)').matches) {
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+  } else {
+    document.querySelectorAll('.reveal').forEach(el => el.classList.add('in'));
+  }
+</script>
+
+</body>
+</html>
