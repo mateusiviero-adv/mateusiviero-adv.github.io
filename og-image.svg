@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A1220"/>
+      <stop offset="60%" stop-color="#0F1B2E"/>
+      <stop offset="100%" stop-color="#16263F"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="rgba(199,154,75,0.08)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- seal -->
+  <g transform="translate(190,315)">
+    <circle r="118" fill="none" stroke="#C79A4B" stroke-width="1.5"/>
+    <circle r="98" fill="none" stroke="#C79A4B" stroke-width="0.75" stroke-dasharray="3 5"/>
+    <text x="0" y="18" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="46" fill="#E4C784">MPS</text>
+    <text x="0" y="55" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" letter-spacing="1" fill="rgba(246,242,233,0.6)">OAB/PR 121.263</text>
+  </g>
+
+  <!-- text block -->
+  <g font-family="Georgia, 'Times New Roman', serif">
+    <text x="430" y="255" font-size="20" letter-spacing="3" fill="#D6B36A" font-family="'Courier New', monospace">ADVOCACIA CRIMINAL</text>
+    <text x="428" y="320" font-size="52" font-weight="700" fill="#F6F2E9">Mateus Padovan</text>
+    <text x="428" y="382" font-size="52" font-weight="700" fill="#F6F2E9">Siviero</text>
+    <text x="430" y="430" font-size="21" fill="rgba(246,242,233,0.72)">Defesa penal construída com técnica.</text>
+    <text x="430" y="460" font-size="21" fill="rgba(246,242,233,0.72)">Verdade que orienta.</text>
+    <text x="430" y="510" font-size="15" letter-spacing="1" fill="rgba(246,242,233,0.5)" font-family="'Courier New', monospace">ARAPONGAS · CURITIBA · PR · SP · MS · MT</text>
+  </g>
+</svg>
