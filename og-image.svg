@@ -13,13 +13,14 @@
   <rect width="1200" height="630" fill="url(#bg)"/>
   <rect width="1200" height="630" fill="url(#grid)"/>
 
-  <!-- seal -->
-  <g transform="translate(190,315)">
-    <circle r="118" fill="none" stroke="#C79A4B" stroke-width="1.5"/>
-    <circle r="98" fill="none" stroke="#C79A4B" stroke-width="0.75" stroke-dasharray="3 5"/>
-    <text x="0" y="18" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="46" fill="#E4C784">MPS</text>
-    <text x="0" y="55" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" letter-spacing="1" fill="rgba(246,242,233,0.6)">OAB/PR 121.263</text>
+  <!-- logotype -->
+  <g transform="translate(71,209.5) scale(0.7)">
+    <text x="20" y="190" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="170" fill="#D6B36A">M</text>
+    <text x="140" y="190" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="170" fill="#D6B36A">P</text>
+    <text x="225" y="190" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="170" fill="#D6B36A">S</text>
+    <rect x="20" y="210" width="300" height="5" fill="#D6B36A"/>
   </g>
+  <text x="190" y="350" text-anchor="middle" font-family="'Courier New', monospace" font-size="14" letter-spacing="1.5" fill="rgba(246,242,233,0.6)">OAB/PR 121.263</text>
 
   <!-- text block -->
   <g font-family="Georgia, 'Times New Roman', serif">

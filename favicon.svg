@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <circle cx="32" cy="32" r="31" fill="#0A1220"/>
-  <circle cx="32" cy="32" r="31" fill="none" stroke="#C79A4B" stroke-width="1.5"/>
-  <circle cx="32" cy="32" r="24" fill="none" stroke="#C79A4B" stroke-width="0.75" stroke-dasharray="2 3"/>
-  <text x="32" y="40" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="22" fill="#D6B36A">MPS</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260">
+  <rect width="480" height="260" rx="28" fill="#0A1220"/>
+  <text x="20" y="190" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="170" fill="#D6B36A">M</text>
+  <text x="140" y="190" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="170" fill="#D6B36A">P</text>
+  <text x="225" y="190" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="170" fill="#D6B36A">S</text>
+  <rect x="20" y="210" width="300" height="5" fill="#D6B36A"/>
 </svg>
